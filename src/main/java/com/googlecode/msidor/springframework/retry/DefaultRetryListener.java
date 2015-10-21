@@ -1,4 +1,4 @@
-package msidor.springframework.retry;
+package com.googlecode.msidor.springframework.retry;
 
 import org.apache.log4j.Logger;
 import org.springframework.retry.RetryCallback;

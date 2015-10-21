@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package msidor.springframework.classify;
+package com.googlecode.msidor.springframework.classify;
 
 import java.util.HashMap;
 import java.util.Map;

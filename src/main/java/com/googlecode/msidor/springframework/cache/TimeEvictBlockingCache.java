@@ -1,4 +1,4 @@
-package msidor.springframework.cache;
+package com.googlecode.msidor.springframework.cache;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

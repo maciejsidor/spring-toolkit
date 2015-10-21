@@ -1,4 +1,4 @@
-package msidor.springframework.config;
+package com.googlecode.msidor.springframework.config;
 
 import java.util.Properties;
 

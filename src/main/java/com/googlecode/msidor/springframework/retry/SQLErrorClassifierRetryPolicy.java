@@ -1,10 +1,8 @@
-package msidor.springframework.retry;
+package com.googlecode.msidor.springframework.retry;
 
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
-
-import msidor.springframework.classify.RangeClassifier;
 
 import org.springframework.classify.Classifier;
 import org.springframework.classify.ClassifierSupport;
@@ -13,6 +11,8 @@ import org.springframework.retry.RetryPolicy;
 import org.springframework.retry.context.RetryContextSupport;
 import org.springframework.retry.policy.NeverRetryPolicy;
 import org.springframework.util.Assert;
+
+import com.googlecode.msidor.springframework.classify.RangeClassifier;
 
 public class SQLErrorClassifierRetryPolicy implements RetryPolicy 
 {
